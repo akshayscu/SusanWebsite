@@ -10,6 +10,8 @@ body{
 }
 
 .ggbMe{
+  background: url("images/ggbMe.jpg") no-repeat center center fixed;
   height:45%;
   width:20%;
+  opacity: 0.7;
 }
