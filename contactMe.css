@@ -1,9 +1,10 @@
 body{
   background: url("images/contactMe.jpg") no-repeat center center fixed;
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
   background-size: cover;
   /*height: 700px;*/
   overflow-x: hidden;
   position: relative;
-  /*color: white;*/
+  color: white;
 }
