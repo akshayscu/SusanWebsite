@@ -19,8 +19,8 @@ body{
   border-radius: 10px;
 }*/
 
-button{
+.links{
   opacity: 0.6;
-  margin-left: 60%;
+  margin: 2%;
   display:inline;
 }
