@@ -20,11 +20,8 @@ body{
   border-radius: 10px;
 }
 
-.links{
+button{
   opacity: 0.6;
   margin-left: 65%;
-}
-
-button{
-  display:inline-grid;
+  display:inline-block;
 }
