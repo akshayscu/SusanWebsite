@@ -14,12 +14,12 @@ body{
   content: url("images/ggbMe.jpg");
   height:45%;
   width:20%;
-  margin-top: 15%;
+  /*margin-top: 15%;*/
   margin-left: 70%;
   opacity: 0.7;
 }
 
-.links{
+.links{ 
   opacity: 0.6;
 }
 
