@@ -21,12 +21,9 @@ body{
 
 .links{
   opacity: 0.6;
-}
-
-.medium{
   margin-left: 65%;
 }
 
-.linkedin{
-  margin-left: 75%;
+button{
+  display: inline;
 }
