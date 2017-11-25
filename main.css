@@ -11,7 +11,7 @@ body{
   font-size: 1.7em;
   font-family: 'Open Sans Condensed', sans-serif;
   /*background-color: white;*/
-  color: orange;
+  color: orange !important;
 }
 .me{
   background-color: #D0D0D0;
