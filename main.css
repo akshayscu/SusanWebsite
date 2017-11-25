@@ -12,6 +12,7 @@ body{
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: white;
   opacity: 0.4;
+  font-weight: bolder;
   /*color: orange !important;*/
 }
 .me{
