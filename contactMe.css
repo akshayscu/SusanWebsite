@@ -20,7 +20,22 @@ body{
 }*/
 
 .links{
+  margin-top: 10%;
   opacity: 0.6;
-  margin: 2%;
   display:inline;
+}
+
+#medium{
+  color: #00ab6c;
+  margin: 2%;
+}
+
+#in{
+  color: #0077b5;
+  margin: 2%;
+}
+
+#email{
+  color: #c71610;
+  margin: 2%;
 }
