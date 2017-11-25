@@ -26,5 +26,5 @@ body{
 }
 
 button{
-  display:inline-flex;
+  display:inline-grid;
 }
