@@ -11,7 +11,7 @@ body{
 
 .ggbMe{
   /*background: url("images/ggbMe.jpg") no-repeat center center fixed;*/
-  background-image: url("images/ggbMe.jpg");
+  content: url("images/ggbMe.jpg");
   height:45%;
   width:20%;
   opacity: 0.7;
