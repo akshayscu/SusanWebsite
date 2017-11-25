@@ -9,8 +9,7 @@ body{
   color: white;
 }
 
-.ggbMe{
-  /*background: url("images/ggbMe.jpg") no-repeat center center fixed;*/
+/*.ggbMe{
   content: url("images/ggbMe.jpg");
   height:45%;
   width:20%;
@@ -18,7 +17,7 @@ body{
   margin-left: 70%;
   opacity: 0.7;
   border-radius: 10px;
-}
+}*/
 
 button{
   opacity: 0.6;
