@@ -10,8 +10,9 @@ body{
 .nav-pills{
   font-size: 1.7em;
   font-family: 'Open Sans Condensed', sans-serif;
-  /*background-color: white;*/
-  color: orange !important;
+  background-color: white;
+  opacity: 0.6;
+  /*color: orange !important;*/
 }
 .me{
   background-color: #D0D0D0;
