@@ -24,23 +24,19 @@ body{
   margin-left: 40%;
 }
 
+button{
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
 #medium{
   color: #00ab6c;
-  margin-top: 5%;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 #in{
   color: #0077b5;
-  margin-top: 5%;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 #email{
   color: #c71610;
-  margin-top: 5%;
-  margin-left: 2%;
-  margin-right: 2%;
 }
