@@ -1,1 +1,1 @@
-Visit https://akshayscu.github.io/SusanWebsite/
+Visit https://akshayscu.github.io/susanWebsite/
