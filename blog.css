@@ -20,12 +20,12 @@ body{
 
 .posts{
   background-color: #D0D0D0;
-  height:75%;
-  width:80%;
+  height:100%;
+  width:90%;
   margin-left:5%;
   margin-right:5%;
-  margin-top:12%;
-  padding-top::1%;
+  margin-top:8%;
   padding:1.5%;
   opacity: 0.7;
+  color: black;
 }
