@@ -19,13 +19,14 @@ body{
 }
 
 .posts{
-  background-color: #D0D0D0;
+  background-color: white;
   height:100%;
   width:90%;
   margin-left:5%;
   margin-right:5%;
   margin-top:8%;
-  padding:1.5%;
-  opacity: 0.7;
+  padding:3.5%;
+  opacity: 0.6;
   color: black;
+  border-radius:15px;
 }
