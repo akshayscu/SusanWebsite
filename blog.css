@@ -18,6 +18,10 @@ body{
   /*color: orange !important;*/
 }
 
+h3{
+  padding-bottom: 2%;
+}
+
 .posts{
   background-color: white;
   height:100%;
