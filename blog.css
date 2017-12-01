@@ -32,7 +32,8 @@ body{
 }
 
 hr{
-    border: 0;
-    height: 0; /* Firefox... */
-    box-shadow: 0 0 10px 1px black;
+  border: 0;
+  height: 55px;
+  background-image: url(images/type_4.png);
+  background-repeat: no-repeat;
 }
