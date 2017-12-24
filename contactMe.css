@@ -1,0 +1,46 @@
+body{
+  background: url("images/contactMe.jpg") no-repeat center center fixed;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  background-size: cover;
+  /*height: 700px;*/
+  overflow-x: hidden;
+  position: relative;
+  color: white;
+}
+
+.nav-pills{
+  font-size: 1.7em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: white;
+  opacity: 0.4;
+  border-radius: 10px;
+  /*color: orange !important;*/
+}
+
+.links{
+  opacity: 0.7;
+  display:inline;
+  margin-left: 35%;
+}
+
+.btn{
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+#medium{
+  color: #00ab6c;
+}
+
+#in{
+  color: #0077b5;
+}
+
+#email{
+  color: #c71610;
+}
+
+#twitter{
+  color: #1dcaff;
+}
