@@ -1,0 +1,111 @@
+body{
+  background: url("images/blogBckgrnd.jpg") no-repeat center center fixed;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  background-size: cover;
+  /*height: 700px;*/
+  overflow-x: hidden;
+  position: relative;
+  color: white;
+}
+
+.nav-pills{
+  font-size: 1.7em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: white;
+  opacity: 0.4;
+  border-radius: 10px;
+  /*color: orange !important;*/
+}
+
+h3{
+  padding-bottom: 2%;
+}
+
+.posts{
+  background-color: white;
+  height:100%;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:8%;
+  padding:3.5%;
+  opacity: 0.8;
+  color: black;
+  border-radius:15px;
+}
+
+.post{
+  position: relative;
+  width: 80%;
+  max-width: 710px;
+  margin:4rem auto;
+  padding-bottom: 4rem;
+  border-bottom: #EBF2F6 1px solid;
+  word-wrap: break-word;
+}
+
+hr{
+  border: 0;
+  margin-left: 27%;
+  padding: 2%;
+  height: 55px;
+  background-image: url(images/type_4.png);
+  background-repeat: no-repeat;
+}
+
+h2{
+  color: #2E2E2E;
+  line-height: 1.15em;
+  margin: 0 0 0.4em 0;
+  font-family: "Open sans", sans-serif;
+  text-rendering: geometricPrecision;
+  display: block;
+  font-weight: bold;
+}
+
+.post-title a{
+  text-decoration: none;
+}
+
+a{
+  color: #4A4A4A;
+  transition: color 0.3s ease;
+  background-color: transparent;
+}
+
+.post-excerpt p{
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1.7em;
+}
+
+.post-meta{
+  display: block;
+  margin-left: 1.75rem 0 0 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #9EABB3;
+}
+
+.post-date{
+  display: inline-block;
+  margin-left: 8px;
+  padding-left: 12px;
+  border-left: #d5dbde 1px solid;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  white-space: nowrap;
+}
+
+/*.pagination{
+  position: relative;
+  width: 80%;
+  max-width: 710px;
+  margin: 4rem auto;
+  font-family: "Open Sans",sans-serif;
+  font-size: 1.3rem;
+  color: #9EABB3;
+  text-align: center;
+}*/
