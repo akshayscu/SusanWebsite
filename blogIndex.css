@@ -7,6 +7,7 @@ body{
   overflow-x: hidden;
   position: relative;
   /*color: white;*/
+  color: black;
 }
 
 .nav-pills{
@@ -18,9 +19,9 @@ body{
   /*color: orange !important;*/
 }
 
-h3{
+/* h3{
   padding-bottom: 2%;
-}
+} */
 
 .post{
   position: relative;
@@ -44,11 +45,11 @@ h2{
 
 .post-title a{
   text-decoration: none;
-  color: white;
+  /* color: white; */
 }
 
 a{
-  color: white;
+  color: black;
   transition: color 0.3s ease;
   background-color: transparent;
 }
@@ -57,7 +58,7 @@ a{
   margin: 0;
   font-size: 1.2em;
   line-height: 1.7em;
-  color: white;
+  /* color: white; */
 }
 
 .post-meta{
@@ -66,32 +67,42 @@ a{
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   line-height: 2.2rem;
-  color: white;
+  /* color: white; */
 }
 
 .post-date{
   display: inline-block;
   margin-left: 8px;
   padding-left: 12px;
-  border-left: white 2px solid;
+  border-left: grey 2px solid;
   text-transform: uppercase;
   font-size: 1.3rem;
   white-space: nowrap;
-  color: white;
+  /* color: white; */
+  color: #55544c;
 }
 
-/*.posts{
+.list{
   background-color: white;
-  height:100%;
+  height:inherit;
   width:90%;
   margin-left:5%;
   margin-right:5%;
   margin-top:8%;
   padding:3.5%;
-  opacity: 0.8;
-  color: black;
+  opacity: 0.625;
+  /* color: black; */
   border-radius:15px;
-}*/
+}
+
+hr{
+  border: 0;
+  margin-left: 20%;
+  /* padding: 2%; */
+  height: 55px;
+  background-image: url(images/type_9.png);
+  background-repeat: no-repeat;
+}
 
 /*.pagination{
   position: relative;
@@ -102,13 +113,4 @@ a{
   font-size: 1.3rem;
   color: #9EABB3;
   text-align: center;
-}*/
-
-/*hr{
-  border: 0;
-  margin-left: 27%;
-  padding: 2%;
-  height: 55px;
-  background-image: url(images/type_4.png);
-  background-repeat: no-repeat;
 }*/
