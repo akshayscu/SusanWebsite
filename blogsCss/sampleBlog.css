@@ -1,0 +1,45 @@
+body{
+  background: url("img.jpg") no-repeat center center fixed;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  background-size: cover;
+  /*height: 700px;*/
+  overflow-x: hidden;
+  position: relative;
+  color: white;
+}
+
+.nav-pills{
+  font-size: 1.7em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: white;
+  opacity: 0.4;
+  border-radius: 10px;
+  /*color: orange !important;*/
+}
+
+h3{
+  padding-bottom: 2%;
+}
+
+.posts{
+  background-color: white;
+  height:inherit;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:8%;
+  padding:3.5%;
+  opacity: 0.7;
+  color: black;
+  border-radius:15px;
+}
+
+hr{
+  border: 0;
+  margin-left: 27%;
+  padding: 2%;
+  height: 55px;
+  background-image: url(type_4.png);
+  background-repeat: no-repeat;
+}
