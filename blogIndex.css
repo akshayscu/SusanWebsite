@@ -90,14 +90,14 @@ a{
   margin-right:5%;
   margin-top:8%;
   padding:3.5%;
-  opacity: 0.625;
+  opacity: 0.55;
   /* color: black; */
   border-radius:15px;
 }
 
 hr{
   border: 0;
-  margin-left: 20%;
+  margin-left: 23%;
   /* padding: 2%; */
   height: 55px;
   background-image: url(images/type_9.png);
