@@ -28,7 +28,7 @@ body{
   width: 80%;
   max-width: 710px;
   margin:4rem auto;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
   border-bottom: #EBF2F6 2px solid;
   word-wrap: break-word;
 }
@@ -99,7 +99,7 @@ hr{
   border: 0;
   margin-left: 23%;
   /* padding: 2%; */
-  height: 55px;
+  height: 5px;
   background-image: url(images/type_9.png);
   background-repeat: no-repeat;
 }
