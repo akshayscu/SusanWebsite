@@ -1,5 +1,5 @@
 body{
-  background: url("blogsImages/blogBckgrnd.jpg") no-repeat center center fixed;
+  background: url("../images/blogBckgrnd.jpg") no-repeat center center fixed;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
   background-size: cover;
@@ -40,6 +40,6 @@ hr{
   margin-left: 27%;
   padding: 2%;
   height: 5px;
-  background-image: url(blogsImages/type_4.png);
+  background-image: url(../images/type_4.png);
   background-repeat: no-repeat;
 }
