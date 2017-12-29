@@ -44,3 +44,13 @@ body{
 #twitter{
   color: #1dcaff;
 }
+
+
+.sign{
+  position: absolute;
+  top: 400;
+  left: 450;
+  width: 50%;
+  height: 50%;
+  background: url("images/spSign.png") no-repeat;
+}
