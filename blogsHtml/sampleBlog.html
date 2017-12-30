@@ -5,12 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="">
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a47d7c844b7ad0013a03233&product=sticky-share-buttons"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+    <!-- <script type="text/javascript" src="main.js"></script> -->
     <link href="../blogsCss/sampleBlog.css" rel="stylesheet" type="text/css">
     <script src="https://use.fontawesome.com/d854ede588.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
@@ -37,12 +38,77 @@
           </ul>
       </div>
 
-      <div class="posts">
-        <h1 class="text-center"><i>Hi,</i></h1>
-        <h2 class="text-center">I am Susan.</h2>
-        <p><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut lacinia elit. Quisque ac interdum enim. Proin varius vestibulum mauris, et lobortis lectus rutrum nec. Curabitur sed turpis sit amet lorem imperdiet fringilla vel eget dolor. Duis sit amet arcu rutrum, fringilla eros non, facilisis metus. Vestibulum semper semper imperdiet. Morbi in tristique mi. Nunc rhoncus ante et libero aliquam, vitae malesuada lacus suscipit. Donec pharetra felis quis nibh maximus iaculis. Integer in sem felis. Vivamus venenatis massa mauris, ut dictum tellus auctor eu. Proin eu mi sit amet ante convallis sollicitudin. Sed eget tortor eu nulla ultricies laoreet et eu metus. Aliquam tincidunt malesuada sollicitudin. Morbi accumsan leo vel finibus congue. Aenean rutrum convallis nisl, malesuada lobortis massa molestie ut. Vestibulum sit amet libero sed justo scelerisque faucibus. Aliquam lacus felis, ornare non venenatis at, pretium at enim. Fusce aliquam dapibus elit a viverra. Nunc vulputate, enim nec auctor commodo, tortor ex luctus mauris, sit amet consectetur urna felis non justo. Morbi tincidunt tortor rhoncus hendrerit rhoncus. Mauris convallis sodales nunc accumsan tincidunt. In ornare nisl arcu, eu condimentum eros commodo ut. Duis at justo at ex pharetra rhoncus. Nunc est nisl, tincidunt vel libero a, tempus auctor orci. Phasellus sodales ultricies magna, et imperdiet tortor sagittis ac. Phasellus semper, metus vel tincidunt pretium, nunc arcu tincidunt risus, sed venenatis felis nulla et nisl. Aenean posuere leo pellentesque malesuada elementum. Nulla neque leo, suscipit et tellus ut, pretium fermentum dui. Vivamus nec purus malesuada ligula tempus dapibus vel et dui. Nulla non ultrices metus, vitae vulputate ex. Fusce eget vulputate enim. Etiam dolor neque, tempor eget quam id, sollicitudin convallis metus. Donec pellentesque vestibulum nibh. Sed pellentesque aliquet lorem, eu consequat ligula mollis non. Quisque vestibulum consectetur ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras sed nibh ut odio rhoncus congue sollicitudin at felis. Cras et consectetur dolor, vel euismod ex. Nam bibendum massa accumsan, mollis ex id, finibus sem. Sed ut nisi est. Aenean ornare lacus ut ornare gravida. Fusce mattis, mi et facilisis suscipit, risus augue laoreet elit, et imperdiet ligula massa quis mauris. Sed erat velit, sagittis et convallis eget, finibus non erat. Sed at porttitor est. Fusce venenatis faucibus lectus. In rhoncus urna mi, sed fringilla leo aliquet sed. Sed lacus lectus, malesuada sed venenatis sit amet, vestibulum sit amet tortor. Curabitur iaculis nulla libero, non finibus enim fermentum in. Phasellus faucibus nunc ut gravida tempus. Etiam sagittis viverra tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet ligula eu urna rhoncus semper. Nam non neque libero.
-        </h3></p>
-        <hr>
+      <div class="list">
+        <article class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">Etherli Wallet Recoveries</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2017-01-04">04 January 2017</time>
+            </section>
+          </header>
+
+          <section class="post-content">
+            <p>One of the primary advantages of using Etherli, the world's first multisignature web wallet for Ethereum is that users can access their Ethereum from anywhere in the world as long as they have an internet connection. Etherli provides users with
+                two of the three keys associated with their wallet contract, this can help make it easier for users to both interact with their Ether without the need of Etherli and to perform a full recovery of their Ether in the case of an emergency.</p>
+
+                <p><em>There are several possible recoveries that you may want to undertake, we will go through all of them here:</em></p>
+
+                <h3 id="accountrecovery">Account recovery</h3>
+
+                <p>You will need the following to perform an account recovery:</p>
+
+                <ul>
+                  <li>Your Etherli key information, provided upon account creation</li>
+                  <li>A locally running version of <a href="https://github.com/ethereum/mist/releases">Mist</a></li>
+                  <li>Your decrypted user account private key - Please use this <a href="https://www.ether.li/recovery">site</a> to decrypt your user account private key</li>
+                  <li>This process will also work for your backup key</li>
+                </ul>
+
+                <p>Please perform the following to recover your account:</p>
+
+                <ol>
+                  <li>Using a text editor create a file with your private key and save it as please<em>delete</em>me.key </li>
+                  <li>Open a terminal or other command line interface and enter the following: <br />
+                    <code>geth account import ~/PATH/TO/KEY/please_delete_me.key</code></li>
+                  <li>Open Mist to view your imported user account </li>
+                </ol>
+
+                <h3 id="walletrecovery">Wallet Recovery</h3>
+
+                <p>To follow through with the wallet recovery process, you must have already completed the account import process.</p>
+
+                <p>You will need the following to perform an account recovery:</p>
+
+                <ul>
+                  <li>Your Etherli key information, provided upon account creation</li>
+                  <li>A locally running version of Mist</li>
+                  <li>Your wallet contract address</li>
+                  <li>With your wallet contract ABI copied to your clipboard, open mist.</li>
+                  <li>Select add wallet contract</li>
+                  <li>For the wallet contract type, select multisignature wallet contract</li>
+                  <li>Select import wallet</li>
+                  <li>Paste the wallet contract address</li>
+                  <li>Click create</li>
+                </ul>
+
+                <p>Importing your user account and wallet account information can be a bit cumbersome, however it is good practice to have it readily available locally in the case of an emergency. When sending simply click Send, then select your wallet contract
+              under the From list and send a transaction as you would normally.</p>
+            </section>
+
+            <footer class="post-footer">
+
+            <section class="author">
+              <h4><a href="/author/mason/">Mason Borda</a></h4>
+
+              <p>Read <a href="/author/mason/">more posts</a> by this author.</p>
+              <div class="author-meta">
+              </div>
+            </section>
+
+          </footer>
+
+        </article>
       </div>
 
     </body>
