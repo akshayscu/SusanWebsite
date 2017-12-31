@@ -1,0 +1,70 @@
+body{
+  background: url("../images/blogListBckgrnd.jpg") no-repeat center center fixed;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  background-size: cover;
+  /*height: 700px;*/
+  overflow-x: hidden;
+  position: relative;
+  color: black;
+}
+
+.nav-pills{
+  font-size: 1.7em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: white;
+  opacity: 0.4;
+  border-radius: 10px;
+  /*color: orange !important;*/
+}
+
+h1 {
+    font-size: 5rem;
+    letter-spacing: -2px;
+    text-indent: -3px;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+    -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+    -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1; */
+    color: #2E2E2E;
+    line-height: 1.15em;
+    margin: 0 0 0.4em 0;
+    font-family: "Open Sans", sans-serif;
+    text-rendering: geometricPrecision;
+    display: block;
+    font-weight: bold;
+}
+
+.list{
+  background-color: white;
+  height:inherit;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:8%;
+  padding:3.5%;
+  opacity: 0.675;
+  color: black;
+  border-radius:15px;
+}
+
+hr{
+  border: 0;
+  margin-left: 27%;
+  padding: 2%;
+  height: 5px;
+  background-image: url(../images/type_4.png);
+  background-repeat: no-repeat;
+}
+
+p{
+  margin: 0 0 1.75em 0;
+  text-rendering: geometricPrecision;
+  display: block;
+}
